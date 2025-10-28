@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+}
+
+.pageBackground {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.pageContainer {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  padding: 2.25rem 3.06rem 2.5rem 2.44rem; 
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem; 
+}
+
+.buttonRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.06rem; 
+}
+
+.iconButtonRow {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.25rem; 
+  gap: 0.625rem; 
+}

@@ -1,0 +1,38 @@
+
+.productItem {
+    flex: 0 0 auto;
+    width: 18.06rem;
+    padding: 1.5rem;
+    padding-bottom: 2.25rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.partiallyHidden {
+    opacity: 0.4;
+}
+
+.productImage {
+    flex: 0 0 auto;
+    width: 14.94rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.625rem;
+}
+
+.productText {
+    font-size: 0.9375rem;
+    color: #555;
+    line-height: 1.4;
+    margin: 0;
+}

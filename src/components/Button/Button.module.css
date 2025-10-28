@@ -1,0 +1,230 @@
+.button {
+    margin: 0;
+    padding-left: 0.94rem;
+    padding-right: 0.94rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    font-family: 'Arimo', 'ArialMT', Arial, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 0.19rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+    background-color: transparent;
+    border: none;
+    color: #333;
+}
+
+.iconWrapper {
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.15s ease;
+}
+
+.iconWrapper svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+.base {
+    background-color: #ebebeb;
+    border: 1px solid #afafaf;
+    color: #333;
+}
+
+.base:hover,
+.isHovered.base {
+    background-color: #f4f4f4;
+}
+
+.base:active,
+.isActive.base {
+    background-color: #e1e1e1;
+}
+
+.base:disabled {
+    background-color: #f0f0f0;
+    border-color: #d3d3d3;
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.red-outline {
+    background-color: #ebebeb;
+    border: 0.13rem solid #dc241f;
+    color: #333;
+}
+
+.red-outline:hover,
+.isHovered.red-outline {
+    background-color: #f4f4f4;
+}
+
+.red-outline:active,
+.isActive.red-outline {
+    background-color: #e1e1e1;
+}
+
+.red-outline:disabled {
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.red {
+    background-color: #ca130c;
+    border: 1px solid #ca130c;
+    color: white;
+}
+
+.red:hover,
+.isHovered.red {
+    background-color: #e83029;
+    border-color: #e83029;
+}
+
+.red:active,
+.isActive.red {
+    background-color: #a9120c;
+    border-color: #a9120c;
+}
+
+.red:disabled {
+    background-color: #ec8e8b;
+    border-color: #ec8e8b;
+    color: white;
+    cursor: not-allowed;
+}
+
+.base-triangle {
+    background-color: #ebebeb;
+    border: 1px solid #afafaf;
+    color: #333;
+}
+
+.base-triangle:hover,
+.isHovered.base-triangle {
+    background-color: #f4f4f4;
+}
+
+.base-triangle:active,
+.isActive.base-triangle {
+    background-color: #e1e1e1;
+}
+
+.base-triangle:disabled {
+    background-color: #f0f0f0;
+    border-color: #d3d3d3;
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.base-triangle .iconWrapper svg {
+    width: 0.25rem;
+    height: 0.5rem;
+    position: absolute;
+    margin-left: 0.38rem;
+    fill: #dc241f;
+    transition: all 0.15s ease;
+    filter: drop-shadow(0 0.06rem 0 rgba(255, 255, 255, 0.8));
+}
+
+.base-triangle:hover .iconWrapper svg,
+.isHovered.base-triangle .iconWrapper svg {
+    fill: #dc241f;
+}
+
+.base-triangle:active .iconWrapper svg,
+.isActive.base-triangle .iconWrapper svg {
+    fill: #a95e5c;
+    filter: drop-shadow(0 0.06rem 0 rgba(255, 255, 255, 0.4));
+}
+
+.base-triangle:disabled .iconWrapper svg {
+    fill: #b6b6b6;
+}
+
+.green {
+    background-color: #6e9735;
+    border: 1px solid #6e9735;
+    color: white;
+}
+
+.green:hover,
+.isHovered.green {
+    background-color: #85b444;
+    border-color: #85b444;
+}
+
+.green:active,
+.isActive.green {
+    background-color: #5e822b;
+    border-color: #5e822b;
+}
+
+.green:disabled {
+    background-color: #9fba7b;
+    border-color: #9fba7b;
+    color: white;
+    cursor: not-allowed;
+}
+
+.green-outline {
+    background-color: #ebebeb;
+    border: 0.13rem solid #6e9735;
+    color: #333;
+}
+
+.green-outline:hover,
+.isHovered.green-outline {
+    background-color: #f4f4f4;
+}
+
+.green-outline:active,
+.isActive.green-outline {
+    background-color: #e1e1e1;
+}
+
+.green-outline:disabled {
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.icon-gray {
+    background-color: #ebebeb;
+    border: 1px solid #afafaf;
+    color: #333;
+    font-weight: 400;
+    gap: 0.38rem;
+}
+
+.icon-gray:hover,
+.isHovered.icon-gray {
+    background-color: #f4f4f4;
+}
+
+.icon-gray:active,
+.isActive.icon-gray {
+    background-color: #e1e1e1;
+}
+
+.icon-gray:disabled {
+    background-color: #f0f0f0;
+    border-color: #d3d3d3;
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.icon-gray .iconWrapper svg {
+    fill: #555;
+}
+
+.icon-gray:disabled .iconWrapper svg {
+    fill: #aaa;
+}

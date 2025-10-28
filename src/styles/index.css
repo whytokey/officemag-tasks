@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 15px;
+  font-family: Tahoma, Arial, sans-serif;
+  background-color: #e9e9e9;
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body.task4-active {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #2b2b2b;
+  color: white;
+}
+
+body.task7-active {
+  background-color: #436da0;
+}
+
+body.task7_2-active {
+  background-color: #ffffff;
+}

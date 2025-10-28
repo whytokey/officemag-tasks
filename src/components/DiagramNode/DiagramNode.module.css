@@ -1,0 +1,23 @@
+.node {
+  position: absolute;
+  background-color: #fdfdfd;
+  color: #333;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 41px; 
+  font-size: 15px;
+}
+
+.name {
+  display: block;
+}
+
+.title {
+  font-size: 0.9em;
+  color: #555;
+  display: block;
+}
