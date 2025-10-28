@@ -24,7 +24,7 @@ const HomePage = () => {
         </li>
         <li>
           <a
-            href="https://github.com/..."
+            href="https://github.com/whytokey/officemag-task6"
             className={styles.taskLink}
             target="_blank"
             rel="noopener noreferrer"
