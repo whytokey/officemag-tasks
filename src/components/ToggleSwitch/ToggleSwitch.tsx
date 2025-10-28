@@ -9,7 +9,6 @@ import styles from './ToggleSwitch.module.css';
 const COLOR_RED = '#c94553';
 const COLOR_GREEN = '#84dc51';
 const COLOR_FRAME = '#fefffd';
-const COLOR_BACKGROUND = '#f0f0f0';
 
 // // --- Константы геометрии ---
 const FRAME_WIDTH = 4.2;
